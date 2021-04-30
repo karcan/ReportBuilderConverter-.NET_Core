@@ -1,7 +1,7 @@
 ## .NET Core Converter for "Microsoft SQL Server Report Builder"
 
 <details>
-  <summary>Get Started</summary>
+  <summary>Get Started (with Source)</summary>
   
   * * *
   
@@ -20,6 +20,14 @@
 * * *
 
 </details>
+
+<details>
+  <summary>Get Started (with DLL)</summary>
+  
+  * * *
+  
+</details>
+
 <details>
   <summary>Usage</summary>
     
