@@ -1,7 +1,10 @@
-<img src="images/report-builder.png"><img src="images/sql-server.png">
+## .NET Core Converter for "Microsoft SQL Server Report Builder"
 
 <details>
-  <summary>Get Started</summary>
+  <summary>Get Started (with Source)</summary>
+  
+  * * *
+  
 ### Open "Visual Studio" and do respectively "File - Open - Project/Solution"
 <img src="images/vs-1.png">
 
@@ -17,8 +20,19 @@
 * * *
 
 </details>
+
+<details>
+  <summary>Get Started (with DLL)</summary>
+  
+### Download Release <a href="/releases">(Click)</a>
+  
+  * * *
+  
+</details>
+
 <details>
   <summary>Usage</summary>
+  * * *
   
 ### Usage
 ```CSharp
