@@ -11,7 +11,8 @@
 
 ### Check "ReportBuilder" and submit "OK"
 <img src="images/vs-4.png">
-  <summary>Usage</summary>
+  
+<summary>Usage</summary>
 ### Usage
 ```CSharp
 // Create instance of ReportConverter
