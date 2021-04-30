@@ -44,7 +44,7 @@
 ### Usage
 ```CSharp
 // Create instance of ReportConverter
-IReportConverter reportBuilder = new ReportConverter();
+IReportConverter reportConverter = new ReportConverter();
 
 
 /*
