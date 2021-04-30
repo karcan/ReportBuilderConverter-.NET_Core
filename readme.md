@@ -1,3 +1,5 @@
+<img src="images/report-builder.png"><img src="images/sql-server.png">
+
 <details>
   <summary>Get Started</summary>
 ### Open "Visual Studio" and do respectively "File - Open - Project/Solution"
