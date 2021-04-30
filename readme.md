@@ -24,13 +24,14 @@
 <details>
   <summary>Get Started (with DLL)</summary>
   
+### Download Release <a href="/releases">(Click)</a>
+  
   * * *
   
 </details>
 
 <details>
   <summary>Usage</summary>
-    
   * * *
   
 ### Usage
