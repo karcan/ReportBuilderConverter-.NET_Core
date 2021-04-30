@@ -1,4 +1,4 @@
-<img src="images/report-builder.png"><img src="images/sql-server.svg">
+<img width=250 src="images/sql-server.svg">
 
 <details>
   <summary>Get Started</summary>
