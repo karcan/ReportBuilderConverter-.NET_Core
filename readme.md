@@ -38,19 +38,20 @@
 
 <details>
   <summary>Usage</summary>
+  
   * * *
   
 ### Usage
 ```CSharp
 // Create instance of ReportConverter
-IReportConverter reportBuilderConverter = new ReportConverter();
+IReportConverter reportBuilder = new ReportConverter();
 
 
 /*
  * PDF
  * Create bytes of PDF.
  */
-byte[] PDF = reportBuilderConverter.toByte(
+byte[] PDF = reportBuilder.toByte(
     reportFilePath: @"D:\test.rdl",
     fileExtension: ReportExtension.PDF,
     paramValues: new Dictionary<string, string> { { "id", "4" } }
@@ -62,7 +63,7 @@ File.WriteAllBytes("D:\\test\\test.pdf", PDF);
  * Excel
  * Create bytes of Excel.
  */
-byte[] Excel = reportBuilderConverter.toByte(
+byte[] Excel = reportBuilder.toByte(
     reportFilePath: @"D:\test.rdl",
     fileExtension: ReportExtension.Excel,
     paramValues: new Dictionary<string, string> { { "id", "4" } }
@@ -74,7 +75,7 @@ File.WriteAllBytes("D:\\test\\test.xls", Excel);
  * Word
  * Create bytes of Word.
  */
-byte[] Word = reportBuilderConverter.toByte(
+byte[] Word = reportBuilder.toByte(
       reportFilePath: @"D:\test.rdl",
       fileExtension: ReportExtension.Word,
       paramValues: new Dictionary<string, string> { { "id", "4" } }
@@ -86,7 +87,7 @@ File.WriteAllBytes("D:\\test\\test.doc", Word);
  * Image
  * Create bytes of Image.
  */
-byte[] Image = reportBuilderConverter.toByte(
+byte[] Image = reportBuilder.toByte(
       reportFilePath: @"D:\test.rdl",
       fileExtension: ReportExtension.Image,
       paramValues: new Dictionary<string, string> { { "id", "4" } }
