@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ReportBuilder.Converter": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Windows\\System32\\cmd.exe",
+      "remoteDebugEnabled": false
+    }
+  }
+}
