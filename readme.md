@@ -51,7 +51,7 @@ IReportConverter reportBuilder = new ReportConverter();
  * PDF
  * Create bytes of PDF.
  */
-byte[] PDF = reportBuilder.toByte(
+byte[] PDF = reportConverter.toByte(
     reportFilePath: @"D:\test.rdl",
     fileExtension: ReportExtension.PDF,
     paramValues: new Dictionary<string, string> { { "id", "4" } }
@@ -63,7 +63,7 @@ File.WriteAllBytes("D:\\test\\test.pdf", PDF);
  * Excel
  * Create bytes of Excel.
  */
-byte[] Excel = reportBuilder.toByte(
+byte[] Excel = reportConverter.toByte(
     reportFilePath: @"D:\test.rdl",
     fileExtension: ReportExtension.Excel,
     paramValues: new Dictionary<string, string> { { "id", "4" } }
@@ -75,7 +75,7 @@ File.WriteAllBytes("D:\\test\\test.xls", Excel);
  * Word
  * Create bytes of Word.
  */
-byte[] Word = reportBuilder.toByte(
+byte[] Word = reportConverter.toByte(
       reportFilePath: @"D:\test.rdl",
       fileExtension: ReportExtension.Word,
       paramValues: new Dictionary<string, string> { { "id", "4" } }
@@ -87,7 +87,7 @@ File.WriteAllBytes("D:\\test\\test.doc", Word);
  * Image
  * Create bytes of Image.
  */
-byte[] Image = reportBuilder.toByte(
+byte[] Image = reportConverter.toByte(
       reportFilePath: @"D:\test.rdl",
       fileExtension: ReportExtension.Image,
       paramValues: new Dictionary<string, string> { { "id", "4" } }
