@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ReportViewerCore.WinForms" Version="15.1.13" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="ReportViewerCore.NETCore" Version="15.1.13" />
   </ItemGroup>
 
 </Project>

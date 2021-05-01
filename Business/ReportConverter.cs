@@ -1,5 +1,5 @@
 ﻿
-using Microsoft.Reporting.WinForms;
+using Microsoft.Reporting.NETCore;
 using ReportBuilder;
 using System;
 using System.Collections.Generic;
