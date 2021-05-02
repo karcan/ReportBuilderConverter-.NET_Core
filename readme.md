@@ -21,24 +21,6 @@
 
 </details>
 
-<details>
-  <summary>Get Started (with DLL)</summary>
-  
-### - Download Release <a href="https://github.com/karcan/ReportBuilder-Converter_.NET-CORE/releases">(Click)</a>
-
-### - Create new project (Console Application / .NET Core 3.1)
-
-### - Right click on "Console Application - Add - Project Reference"
-<img src="images/vs-5.png">
-<img src="images/vs-6.png">
-  
-  * * *
-  
-</details>
-
-<details>
-  <summary>Usage</summary>
-  
   * * *
   
 ### Usage
