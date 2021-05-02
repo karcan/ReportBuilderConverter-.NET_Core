@@ -23,6 +23,7 @@
 
   * * *
   
+<details>
 ### Usage
 ```CSharp
 // Create instance of ReportConverter
