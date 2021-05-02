@@ -20,10 +20,10 @@
 * * *
 
 </details>
-
-  * * *
   
 <details>
+  <summary>Usage</summary>
+  
 ### Usage
 ```CSharp
 // Create instance of ReportConverter
